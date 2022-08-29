@@ -1,12 +1,36 @@
-import React from 'react';
-import './App.css';
+import { AnyAaaaRecord } from 'dns';
+import * as React from 'react';
+import { useRoutes } from 'react-router-dom'
+
+const Loader = (Component: any) => (props: any) =>
+(
+  <React.Suspense >
+    <Component {...props} />
+  </React.Suspense>
+);
+
+const Landing = Loader(React.lazy(() => import('./pages/landing')));
+
+const Personal = Loader(React.lazy(() => import('./pages/personal')));
+
+const Projects = Loader(React.lazy(() => import('./pages/projects')));
 
 function App() {
-  return (
-    <div style={{marginTop: '50px'}} className="App">
-      <h1>Site Coming Soon</h1>
-    </div>
-  );
+  let element = useRoutes([
+    {
+      path: '/',
+      element: <Landing />,
+    },
+    {
+      path: '/denis',
+      element: <Personal />,
+    },
+    {
+      path: '/dream',
+      element: <Projects />
+    }
+  ])
+  return element;
 }
 
 export default App;
