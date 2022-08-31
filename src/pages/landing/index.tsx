@@ -19,7 +19,7 @@ const Landing = () => {
       </Box>
       <Container maxWidth='lg' sx={{ padding: '20px', backgroundColor: '#fff', borderRadius: '50px', marginTop: '-70px', marginLeft: '30px', marginRight: '70px' }}>
         <Grid container spacing={3} alignItems='center' justifyContent='center'>
-          <Grid item xs={12} lg={3}>
+          <Grid item xs={12} lg={3} md={3} sm={12}>
             <img
               src={denis}
               alt='Denis Siduna'
@@ -30,7 +30,7 @@ const Landing = () => {
               }}
             />
           </Grid>
-          <Grid item xs={12} lg={9}>
+          <Grid item xs={12} lg={9} md={8} sm={12}>
             <Typography align='center' sx={{ color: '#050543', fontSize: '1.3rem' }}>
               "Hey gorgeous, welcome to our world.
             </Typography>
@@ -43,7 +43,7 @@ const Landing = () => {
           <Grid item lg={6} md={6} sm={12} xs={12}>
             <Link to='/denis' style={{ textDecoration: 'none', textAlign: 'center' }}>
               <Box textAlign='center'>
-                <Button variant='outlined' sx={{ fontSize: '25px', borderRadius: '20px', backgroundColor: '#050543', color: '#fff' }}>
+                <Button variant='outlined' sx={{ fontSize: '25px', borderRadius: '20px', backgroundColor: '#000000', color: '#fff' }}>
                   Consulting Services
                 </Button>
               </Box>
@@ -52,7 +52,7 @@ const Landing = () => {
           <Grid item lg={6} md={6} sm={12} xs={12}>
             <Link to='/dream' style={{ textDecoration: 'none', textAlign: 'center' }}>
               <Box textAlign='center'>
-                <Button variant='outlined' sx={{ fontSize: '25px', borderRadius: '20px', backgroundColor: '#050543', color: '#fff' }}>
+                <Button variant='outlined' sx={{ fontSize: '25px', borderRadius: '20px', backgroundColor: '#000000', color: '#fff' }}>
                   Personal Projects
                 </Button>
               </Box>
