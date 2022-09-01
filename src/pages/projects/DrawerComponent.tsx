@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import MenuIcon from '@mui/icons-material/Menu';
 import {
     Drawer,
@@ -28,23 +29,23 @@ function DrawerComponent() {
                 <List>
                     <ListItem onClick={() => setOpenDrawer(false)}>
                         <ListItemText>
-                            <Link to='/dream/' style={{ textDecoration: 'none', fontSize: '15px', color: '#000' }}>
+                            <HashLink smooth to='/denis#about' style={{ textDecoration: 'none', fontSize: '15px', color: '#000' }}>
                                 About
-                            </Link>
+                            </HashLink>
                         </ListItemText>
                     </ListItem>
                     <ListItem onClick={() => setOpenDrawer(false)}>
                         <ListItemText>
-                            <Link to='/dream/philosophy' style={{ textDecoration: 'none', fontSize: '15px', color: '#000' }}>
+                            <HashLink smooth to='/denis#portfolio' style={{ textDecoration: 'none', fontSize: '15px', color: '#000' }}>
                                 Portfolio
-                            </Link>
+                            </HashLink>
                         </ListItemText>
                     </ListItem>
                     <ListItem onClick={() => setOpenDrawer(false)}>
                         <ListItemText>
-                            <Link to='/dream/plan' style={{ textDecoration: 'none', fontSize: '15px', color: '#000' }}>
+                            <HashLink smooth to='/denis#contact' style={{ textDecoration: 'none', fontSize: '15px', color: '#000' }}>
                                 Contact
-                            </Link>
+                            </HashLink>
                         </ListItemText>
                     </ListItem>
                     <ListItem onClick={() => setOpenDrawer(false)}>

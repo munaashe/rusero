@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, AppBar, Toolbar, CssBaseline, useMediaQuery, Box, useTheme } from '@mui/material';
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 import siDesigned from '../../assets/sidesigned.png';
 import DrawerComponent from './DrawerComponent';
@@ -15,7 +16,7 @@ const NavBar = () => {
           <CssBaseline />
           <Toolbar>
             <Box sx={{ flexGrow: 1, cursor: 'pointer', alignItems: 'center', marginLeft: '10px' }}>
-              <Link to='/dream'>
+              <Link to='/denis'>
                 <img
                   src={siDesigned}
                   alt='denis logo'
@@ -27,7 +28,7 @@ const NavBar = () => {
               <DrawerComponent />
             ) : (
               <div style={{ display: 'flex', justifyContent: 'right', marginRight: '40px' }}>
-                <Link to='/dream'
+                <HashLink smooth to='/denis#about'
                   style={{
                     textDecoration: 'none',
                     color: '#333',
@@ -36,8 +37,8 @@ const NavBar = () => {
                   }}
                 >
                   About
-                </Link>
-                <Link to='/dream/philosophy'
+                </HashLink>
+                <HashLink smooth to='/denis#portfolio'
                   style={{
                     textDecoration: 'none',
                     color: '#333',
@@ -46,8 +47,8 @@ const NavBar = () => {
                   }}
                 >
                   Portfolio
-                </Link>
-                <Link to='/dream/plan'
+                </HashLink>
+                <HashLink smooth to='/denis#contact'
                   style={{
                     textDecoration: 'none',
                     color: '#333',
@@ -56,7 +57,7 @@ const NavBar = () => {
                   }}
                 >
                   Contact
-                </Link>
+                </HashLink>
                 <Link to='/'
                   style={{
                     textDecoration: 'none',

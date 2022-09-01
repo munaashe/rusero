@@ -6,7 +6,7 @@ import patriotizim from '../../assets/patriotizim.png';
 
 const Portfolio = () => {
   return (
-    <div style={{ background: '#fafafa' }}>
+    <div id='portfolio' style={{ background: '#fafafa' }}>
       <Container maxWidth='lg' sx={{ marginTop: '30px' }}>
         <br />
         <Typography variant='h4' align='center' sx={{ color: '#050543', marginTop: '15px' }}>

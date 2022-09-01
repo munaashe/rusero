@@ -23,8 +23,8 @@ const Personal = () => {
         </Box>
       </div>
       <About />
-      <br/>
-      <br/>
+      <br />
+      <br />
       <Academics />
       <Contact />
     </div>

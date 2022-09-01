@@ -8,8 +8,6 @@ import next from '../../assets/next.jpg';
 import firebase from '../../assets/firebase.jpg';
 import solidity from '../../assets/solidity.jpg';
 import typescript from '../../assets/typescript.jpg';
-import gatsby from '../../assets/gatsby.jpg';
-import mui from '../../assets/mui.jpg';
 import javascript from '../../assets/javascript.jpg';
 import angular from '../../assets/angular.jpg';
 import mongo from '../../assets/mongo.jpg';
@@ -17,8 +15,8 @@ import mongo from '../../assets/mongo.jpg';
 const About = () => {
 
   return (
-    <div>
-      <Box sx={{ background: `url(${bg})`, minHeight: '500px', marginTop: '-110px' }} display='flex' flexDirection='column' justifyContent='center'>
+    <div id='about'>
+      <Box sx={{ background: `url(${bg})`, minHeight: '500px', marginTop: '-110px' }} display='flex' flexDirection='column' justifyContent='center' >
         <Typography align='left' sx={{ fontSize: '3.1rem', fontWeight: 'bold', color: '#fff', paddingLeft: '30px' }} >
           Hi,  <span style={{ paddingRight: "5px" }}></span>
           <ReactTyped
