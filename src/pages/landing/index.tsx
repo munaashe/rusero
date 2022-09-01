@@ -17,7 +17,7 @@ const Landing = () => {
           . . . Feel It!
         </Typography>
       </Box>
-      <Container maxWidth='lg' sx={{ padding: '20px', backgroundColor: '#fff', borderRadius: '50px', marginTop: '-70px', marginLeft: '30px', marginRight: '70px' }}>
+      <Container maxWidth='lg' sx={{ padding: '20px', backgroundColor: '#fff', borderRadius: '50px', marginTop: '-70px', }}>
         <Grid container spacing={3} alignItems='center' justifyContent='center'>
           <Grid item xs={12} lg={3} md={3} sm={12}>
             <img
@@ -78,15 +78,17 @@ const Landing = () => {
             </Typography>
           </Grid>
           <Grid item lg={6} md={6} sm={12} xs={12}>
-            <img
-              src={tiger}
-              alt='Denis Siduna'
-              height='350px'
-              style={{
-                padding: '30px',
-                borderRadius: '175px'
-              }}
-            />
+            <Box justifyContent='center'>
+              <img
+                src={tiger}
+                alt='Denis Siduna'
+                height='310px'
+                style={{
+                  padding: '30px',
+                  borderRadius: '125px'
+                }}
+              />
+            </Box>
           </Grid>
         </Grid>
       </Container>

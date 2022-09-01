@@ -4,10 +4,14 @@ import bg from '../../assets/bg.jpg';
 import About from './About';
 import Academics from './Academics';
 import Contact from './Contact';
+import { Helmet } from 'react-helmet-async';
 
 const Personal = () => {
   return (
     <div style={{ background: '#fafafa', marginTop: '-140px' }}>
+      <Helmet>
+        <title>Personal Projects | SiDesigned</title>
+      </Helmet>
       <br />
       <div style={{ background: `url(${bg})`, minHeight: '450px' }}>
         <Box sx={{ background: `url(${bg})`, minHeight: '400px' }} display='flex' flexDirection='column' justifyContent='center' alignItems='center'>

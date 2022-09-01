@@ -10,12 +10,16 @@ import FeedIcon from '@mui/icons-material/Feed';
 import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
+import { Helmet } from 'react-helmet-async';
 
 
 const Plan = () => {
   return (
     <div style={{ background: '#fafafa', marginTop: '-120px' }}>
       <br />
+      <Helmet>
+        <title>The Plan | SiDesigned</title>
+      </Helmet>
       <Typography variant='h4' align='center' sx={{ color: '#050543', paddingTop: '20px', marginTop: '110px' }}>
         The Grand Plan
       </Typography>

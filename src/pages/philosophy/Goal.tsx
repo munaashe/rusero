@@ -49,7 +49,7 @@ const Goal = () => {
                         <img
                             src={future}
                             alt='the future'
-                            style={{ height: '340px', marginLeft: '20px' }}
+                            style={{ height: '267px', marginLeft: '20px' }}
                         />
                     </Grid>
                 </Grid>
