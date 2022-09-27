@@ -14,11 +14,11 @@ const Portfolio = () => {
           Portfolio
         </Typography>
         <Grid container spacing={2} style={{ justifyContent: 'space-evenly' }}>
-          <Grid item xs={12} sm={6} md={3} lg={3}>
+          <Grid item xs={12} sm={6} md={3} lg={3} height='240px'>
             <a target='_blank' rel='noreferrer' href='https://patriotizim.com/' >
               <Card sx={{ display: 'flex', backgroundColor: 'transparent', border: 'none', boxShadow: 'none' }}>
                 <CardMedia
-                  sx={{ objectFit: 'contain', ':hover': { height: '260px' } }}
+                  sx={{ objectFit: 'contain', ':hover': { height: '240px' } }}
                   height='200px'
                   component='img'
                   image={patriotizim}
@@ -27,11 +27,11 @@ const Portfolio = () => {
               </Card>
             </a>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={4}>
+          <Grid item xs={12} sm={6} md={4} lg={4} height='240px'>
             <a target='_blank' rel='noreferrer' href='https://smhzw.org.zw/' >
               <Card sx={{ display: 'flex', backgroundColor: 'transparent', border: 'none', boxShadow: 'none' }}>
                 <CardMedia
-                  sx={{ objectFit: 'contain', ':hover': { height: '260px' } }}
+                  sx={{ objectFit: 'contain', ':hover': { height: '240px' } }}
                   height='200px'
                   component='img'
                   image={smhzw}
@@ -40,11 +40,11 @@ const Portfolio = () => {
               </Card>
             </a>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={4}>
+          <Grid item xs={12} sm={6} md={4} lg={4} height='240px'>
             <a target='_blank' rel='noreferrer' href='https://skyangel.co.zw/' >
               <Card sx={{ display: 'flex', backgroundColor: 'transparent', border: 'none', boxShadow: 'none' }}>
                 <CardMedia
-                  sx={{ objectFit: 'contain', ':hover': { height: '260px' } }}
+                  sx={{ objectFit: 'contain', ':hover': { height: '240px' } }}
                   height='200px'
                   component='img'
                   image={skyangel}
@@ -53,11 +53,11 @@ const Portfolio = () => {
               </Card>
             </a>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={4}>
+          <Grid item xs={12} sm={6} md={4} lg={4} height='240px'>
             <a target='_blank' rel='noreferrer' href='https://abanganeplatform.co.zw/' >
               <Card sx={{ display: 'flex', backgroundColor: 'transparent', border: 'none', boxShadow: 'none' }}>
                 <CardMedia
-                  sx={{ objectFit: 'contain', ':hover': { height: '260px' } }}
+                  sx={{ objectFit: 'contain', ':hover': { height: '240px' } }}
                   height='200px'
                   component='img'
                   image={abangane}
