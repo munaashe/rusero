@@ -3,6 +3,7 @@ import React from 'react'
 import skyangel from '../../assets/skyangel.png';
 import smhzw from '../../assets/smhzw.png';
 import patriotizim from '../../assets/patriotizim.png';
+import abangane from '../../assets/abangane.png';
 
 const Portfolio = () => {
   return (
@@ -48,6 +49,19 @@ const Portfolio = () => {
                   component='img'
                   image={skyangel}
                   alt='SkyAngel Private Jet Charters'
+                />
+              </Card>
+            </a>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4} lg={4}>
+            <a target='_blank' rel='noreferrer' href='https://abanganeplatform.co.zw/' >
+              <Card sx={{ display: 'flex', backgroundColor: 'transparent', border: 'none', boxShadow: 'none' }}>
+                <CardMedia
+                  sx={{ objectFit: 'contain', ':hover': { height: '260px' } }}
+                  height='200px'
+                  component='img'
+                  image={abangane}
+                  alt='Abangane Platforms'
                 />
               </Card>
             </a>

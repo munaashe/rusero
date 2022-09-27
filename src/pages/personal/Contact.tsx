@@ -58,7 +58,7 @@ const Contact = () => {
                                     }}
                                 />
                                 <Typography variant='body1' color='text.secondary' align='left'>
-                                    <a href='https://wa.me/27685229708' style={{ textDecoration: 'none', color: '#000' }}>+27 522 9708</a>
+                                    <a href='https://wa.me/27685229708' style={{ textDecoration: 'none', color: '#000' }}>+27 68 522 9708</a>
                                 </Typography>
                             </Stack>
                         </Grid>

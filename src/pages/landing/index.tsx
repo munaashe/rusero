@@ -32,7 +32,7 @@ const Landing = () => {
           </Grid>
           <Grid item xs={12} lg={9} md={8} sm={12}>
             <Typography align='center' sx={{ color: '#050543', fontSize: '1.3rem' }}>
-              "Hey gorgeous, welcome to our world.
+              "Hey, welcome!
             </Typography>
             <Typography align='center' sx={{ color: '#050543', fontSize: '1.3rem' }}>
               Click to enter into any of the two sites."
