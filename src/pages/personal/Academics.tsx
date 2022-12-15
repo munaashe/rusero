@@ -17,7 +17,7 @@ const Academics = () => {
                         summarised as:
                     </Typography>
                 </Container>
-                <Grid container spacing={3} justifyContent='space-evenly' sx={{ marginTop: '20px' }}>
+                <Grid container spacing={3} justifyContent='center' alignItems='center' sx={{ marginTop: '20px' }}>
                     <Grid item lg={3} md={3} sm={6} xs={12}>
                         <Card sx={{ borderRadius: '0px', boxShadow: 'none' }}>
                             <Box>
