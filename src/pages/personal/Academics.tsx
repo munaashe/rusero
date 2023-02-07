@@ -17,10 +17,10 @@ const Academics = () => {
                         summarised as:
                     </Typography>
                 </Container>
-                <Grid container spacing={3} justifyContent='center' alignItems='center' sx={{ marginTop: '20px' }}>
+                <Grid container spacing={3} justifyContent='space-evenly' alignItems='center' sx={{ paddingTop: '23px' }}>
                     <Grid item lg={3} md={3} sm={6} xs={12}>
-                        <Card sx={{ borderRadius: '0px', boxShadow: 'none' }}>
-                            <Box>
+                        <Card sx={{  boxShadow: 'none' }}>
+                            <Box textAlign='center'>
                                 <ShoppingCart
                                     sx={{
                                         fontSize: '150px',
@@ -30,15 +30,15 @@ const Academics = () => {
                                 />
                             </Box>
                             <CardContent>
-                                <Typography variant='h6' align='left' sx={{ color: '#000' }}>
+                                <Typography variant='h6' align='center' sx={{ color: '#000' }}>
                                     E-Commerce
                                 </Typography>
                             </CardContent>
                         </Card>
                     </Grid>
                     <Grid item lg={3} md={3} sm={6} xs={12}>
-                        <Card sx={{ borderRadius: '0px', boxShadow: 'none' }}>
-                            <Box>
+                        <Card sx={{  boxShadow: 'none' }}>
+                            <Box textAlign='center'>
                                 <CurrencyBitcoin
                                     sx={{
                                         fontSize: '150px',
@@ -47,15 +47,15 @@ const Academics = () => {
                                 />
                             </Box>
                             <CardContent>
-                                <Typography variant='h6' align='left' sx={{ color: '#000' }}>
+                                <Typography variant='h6' align='center' sx={{ color: '#000' }}>
                                     BlockChain
                                 </Typography>
                             </CardContent>
                         </Card>
                     </Grid>
                     <Grid item lg={3} md={3} sm={6} xs={12}>
-                        <Card sx={{ borderRadius: '0px', boxShadow: 'none' }}>
-                            <Box>
+                        <Card sx={{  boxShadow: 'none' }}>
+                            <Box textAlign='center'>
                                 <Engineering
                                     sx={{
                                         fontSize: '150px',
@@ -64,15 +64,15 @@ const Academics = () => {
                                 />
                             </Box>
                             <CardContent>
-                                <Typography variant='h6' align='left' sx={{ color: '#000' }}>
+                                <Typography variant='h6' align='center' sx={{ color: '#000' }}>
                                     Engineering
                                 </Typography>
                             </CardContent>
                         </Card>
                     </Grid>
                     <Grid item lg={3} md={3} sm={6} xs={12}>
-                        <Card sx={{ borderRadius: '0px', boxShadow: 'none' }}>
-                            <Box>
+                        <Card sx={{  boxShadow: 'none' }}>
+                            <Box textAlign='center'>
                                 <Spa
                                     sx={{
                                         fontSize: '150px',
@@ -81,7 +81,7 @@ const Academics = () => {
                                 />
                             </Box>
                             <CardContent>
-                                <Typography variant='h6' align='left' sx={{ color: '#000' }}>
+                                <Typography variant='h6' align='center' sx={{ color: '#000' }}>
                                     Mental Health
                                 </Typography>
                             </CardContent>

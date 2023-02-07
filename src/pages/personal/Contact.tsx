@@ -11,7 +11,7 @@ const Contact = () => {
                 </Typography>
                 <br/>
                 <Container maxWidth='md'>
-                    <Grid container spacing={5}>
+                    <Grid container spacing={5} justifyContent='space-evenly'>
                         <Grid item lg={6} md={6} xs={12} sm={12}>
                             <Stack direction='row' alignItems='center' gap={2}>
                                 <GitHub
