@@ -11,9 +11,13 @@ import Portfolio from './Portfolio';
 
 const Personal = () => {
   return (
-    <div style={{ background: '#f1f1f1', marginTop: '-140px' , minHeight: '80vh'}}>
+    <div style={{ background: '#f1f1f1', marginTop: '-140px', minHeight: '80vh' }}>
       <Helmet>
         <title>Home| SiDesigned</title>
+        <meta
+          name='description'
+          content='I am Munashe. A proud software developer. A civil engineering graduate. I survived Mugabe and Wenger as a Zimbabwean Arsenal fan'
+        />
       </Helmet>
       <br />
       <div style={{ background: `url(${bg})`, minHeight: '550px' }}>
