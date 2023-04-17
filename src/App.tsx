@@ -8,41 +8,32 @@ const Loader = (Component: any) => (props: any) =>
   </React.Suspense>
 );
 
-const Landing = Loader(React.lazy(() => import('./pages/landing')));
 
 const Personal = Loader(React.lazy(() => import('./pages/personal')));
-const Philosophy = Loader(React.lazy(()=> import('./pages/philosophy')));
-const Plan = Loader(React.lazy(()=> import('./pages/plan')));
+const Blog = Loader(React.lazy(() => import('./pages/blog')));
+const Article = Loader(React.lazy(() => import('./pages/Article')));
 
-const Projects = Loader(React.lazy(() => import('./pages/projects')));
 
-const PersonalLayout = Loader(React.lazy(()=> import('./layouts/PersonalLayout')))
+const PersonalLayout = Loader(React.lazy(() => import('./layouts/PersonalLayout')))
 
 function App() {
   let element = useRoutes([
     {
       path: '/',
-      element: <Landing />,
-    },
-    {
-      path: 'denis',
-      element: <Projects />,
-    },
-    {
-      path: 'dream',
       element: <PersonalLayout />,
       children: [
         {
           path: '',
-          element: <Personal/>
+          element: <Personal />
         },
         {
-          path: 'philosophy',
-          element: <Philosophy/>,
+          path: 'blog',
+          element: <Blog />
         },
         {
-          path: 'plan',
-          element: <Plan/>
+          path: 'blog/:ID',
+          element: <Article />
+
         }
       ]
     }

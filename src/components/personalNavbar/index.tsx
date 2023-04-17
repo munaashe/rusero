@@ -2,7 +2,7 @@ import { Container, AppBar, Toolbar, CssBaseline, useMediaQuery, Box, useTheme }
 import { Link } from 'react-router-dom';
 import React from 'react';
 
-import sid from '../../assets/sid.jpg'
+import sid from '../../assets/sidesigned.png'
 import DrawerComponent from './DrawerComponent';
 
 const PersonalNavBar = () => {
@@ -15,7 +15,7 @@ const PersonalNavBar = () => {
                     <CssBaseline />
                     <Toolbar>
                         <Box sx={{ flexGrow: 1, cursor: 'pointer', alignItems: 'center', marginLeft: '10px' }}>
-                            <Link to='/dream'>
+                            <Link to='/'>
                                 <img
                                     src={sid}
                                     alt='denis logo'
@@ -27,7 +27,7 @@ const PersonalNavBar = () => {
                             <DrawerComponent />
                         ) : (
                             <div style={{ display: 'flex', justifyContent: 'right', marginRight: '40px' }}>
-                                <Link to='/dream'
+                                <Link to='/'
                                     style={{
                                         textDecoration: 'none',
                                         color: '#333',
@@ -37,7 +37,7 @@ const PersonalNavBar = () => {
                                 >
                                     Home
                                 </Link>
-                                <Link to='/dream/philosophy'
+                                <Link to='/blog'
                                     style={{
                                         textDecoration: 'none',
                                         color: '#333',
@@ -45,27 +45,7 @@ const PersonalNavBar = () => {
                                         marginLeft: theme.spacing(10),
                                     }}
                                 >
-                                    The Philosophy
-                                </Link>
-                                <Link to='/dream/plan'
-                                    style={{
-                                        textDecoration: 'none',
-                                        color: '#333',
-                                        fontSize: '19px',
-                                        marginLeft: theme.spacing(10),
-                                    }}
-                                >
-                                    The Plan
-                                </Link>
-                                <Link to='/'
-                                    style={{
-                                        textDecoration: 'none',
-                                        color: '#333',
-                                        fontSize: '19px',
-                                        marginLeft: theme.spacing(10),
-                                    }}
-                                >
-                                    Return
+                                    Blog
                                 </Link>
                             </div>
                         )}

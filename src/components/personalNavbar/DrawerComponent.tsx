@@ -28,29 +28,15 @@ function DrawerComponent() {
                 <List>
                     <ListItem onClick={() => setOpenDrawer(false)}>
                         <ListItemText>
-                            <Link to='/dream/' style={{ textDecoration: 'none', fontSize: '15px', color: '#000' }}>
+                            <Link to='/' style={{ textDecoration: 'none', fontSize: '15px', color: '#000' }}>
                                 Home
                             </Link>
                         </ListItemText>
                     </ListItem>
                     <ListItem onClick={() => setOpenDrawer(false)}>
                         <ListItemText>
-                            <Link to='/dream/philosophy' style={{ textDecoration: 'none', fontSize: '15px', color: '#000' }}>
-                                The Philosophy
-                            </Link>
-                        </ListItemText>
-                    </ListItem>
-                    <ListItem onClick={() => setOpenDrawer(false)}>
-                        <ListItemText>
-                            <Link to='/dream/plan' style={{ textDecoration: 'none', fontSize: '15px', color: '#000' }}>
-                                The Plan
-                            </Link>
-                        </ListItemText>
-                    </ListItem>
-                    <ListItem onClick={() => setOpenDrawer(false)}>
-                        <ListItemText>
-                            <Link to='/' style={{ textDecoration: 'none', fontSize: '15px', color: '#000' }}>
-                                Return
+                            <Link to='/blog' style={{ textDecoration: 'none', fontSize: '15px', color: '#000' }}>
+                                Blog
                             </Link>
                         </ListItemText>
                     </ListItem>
