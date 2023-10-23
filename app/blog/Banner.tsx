@@ -11,13 +11,13 @@ const Banner = () => {
                 </Typography>
                 <Container maxWidth='xs' sx={{ paddingRight: '20px' }}>
                     <Typography variant='subtitle2' align='center' color='text.secondary'>
-                        Feel free to share with others. Getting you offended is the risk I've
-                        taken in writing these posts. I won't apologise for that. You should
+                        Feel free to share with others. Getting you offended is the risk I have
+                        taken in writing these posts. I wont apologise for that. You should
                         also not take it hard.
                     </Typography>
                     <br />
                     <Typography variant='subtitle2' align='center' color='text.secondary'>
-                        I'm taking these posts from my wordpress free blog API. From the onset I
+                        I am taking these posts from my wordpress free blog API. From the onset I
                         did not put much work in making my posts properly organised. So please
                         bear with me on this lousy look.
                     </Typography>
