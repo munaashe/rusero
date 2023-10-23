@@ -3,6 +3,7 @@ import { wordPressAPI } from '../Articles'
 
 type Props = {
     params: { slug: string }
+    children: React.ReactNode
     searchParams: { [key: string]: string | string[] | undefined }
 }
 
@@ -26,11 +27,7 @@ export async function generateMetadata(
         },
     }
 }
-export default function RootLayout({
-    children,
-}: {
-    children: React.ReactNode
-}) {
+export default function BlogLayout({ children}: Props) {
     return (
         <html lang="en">
             <body >{children}</body>
