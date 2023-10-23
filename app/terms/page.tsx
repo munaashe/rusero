@@ -1,5 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Terms & Conditions - SiDesigned',
+  description: 'These terms and conditions outline the rules and regulations for the use of our services.',
+}
 
 const TermsAndConditions = () => {
   return (

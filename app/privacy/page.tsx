@@ -1,4 +1,10 @@
 import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy - SiDesigned',
+  description: 'This Privacy Policy outlines how we collect, use, and safeguard your data when you use our services.',
+}
 
 const PrivacyPolicy = () => {
   return (
