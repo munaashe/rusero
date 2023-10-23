@@ -36,7 +36,7 @@ const TermsAndConditions = () => {
         </p>
 
         <p className="mb-4">
-          Our website and services are provided on an "as is" and "as available" basis. SiDesigned does not guarantee
+          Our website and services are provided on an <span className='italic text-blue-500'>as is</span> and <span className='italic text-blue-500'>as available</span> basis. SiDesigned does not guarantee
           the accuracy, completeness, or timeliness of the content on our website. We shall not be held liable for any
           direct, indirect, incidental, consequential, or punitive damages arising from your access to or use of our
           website or services.
@@ -48,7 +48,7 @@ const TermsAndConditions = () => {
 
         <p className="mb-4">
           You agree to indemnify and hold SiDesigned and its affiliates, officers, directors, employees, and agents
-          harmless from any claims, liabilities, damages, losses, or expenses, including reasonable attorneys' fees,
+          harmless from any claims, liabilities, damages, losses, or expenses, including reasonable legal fees,
           arising out of your use of our website or services or your violation of these terms and conditions.
         </p>
 

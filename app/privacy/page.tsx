@@ -19,7 +19,7 @@ const PrivacyPolicy = () => {
         <p className="mb-4">
           We may collect personal information such as your name, email address, and contact details when you interact
           with our website or engage with our services. We also gather non-personal information through the use of
-          cookies and similar technologies to improve our website's functionality.
+          cookies and similar technologies to improve our website functionality.
         </p>
 
         <p className="mb-4">
