@@ -18,11 +18,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <div className='fixed top-8 w-full'>
-        <Navbar />
-      </div>
-      <body className={montserrat.className}>{children}</body>
-      <Footer />
-    </html>
+      <body className={montserrat.className}>
+        <div className='fixed top-8 w-full'>
+          <Navbar />
+        </div>
+        {children}
+        <Footer />
+      </body>
+    </html >
   )
 }

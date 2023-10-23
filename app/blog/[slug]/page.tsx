@@ -6,11 +6,10 @@ import Article from './Article'
 type Props = {
     params: { slug: string }
     children: React.ReactNode
-    searchParams: { [key: string]: string | string[] | undefined }
 }
 
 export async function generateMetadata(
-    { params, searchParams }: Props,
+    { params }: Props,
     parent: ResolvingMetadata
 ): Promise<Metadata> {
     // read route params
