@@ -5,7 +5,6 @@ import Article from './Article'
 
 type Props = {
     params: { slug: string }
-    children: React.ReactNode
 }
 
 export async function generateMetadata(
@@ -23,6 +22,7 @@ export async function generateMetadata(
 
     return {
         title: article.title,
+        description: article.excerpt.slice(0, 95) + '...',
         openGraph: {
             images: ['../../assets/sidesigned.png', ...previousImages],
         },
