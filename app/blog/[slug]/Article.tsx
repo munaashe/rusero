@@ -3,8 +3,9 @@
 import React from 'react';
 import { wordPressAPI } from '../Articles';
 import { useMediaQuery } from 'react-responsive';
+import { Props } from './page';
 
-const Article = ({ params }: { params: { slug: string } }) => {
+const Article = ({ params }: Props) => {
     const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
     const [article, setArticle] = React.useState({
         title: '',

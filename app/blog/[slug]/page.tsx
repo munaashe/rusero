@@ -3,7 +3,7 @@ import { Metadata, ResolvingMetadata } from 'next'
 import Article from './Article'
 
 
-type Props = {
+export type Props = {
     params: { slug: string }
 }
 
@@ -29,7 +29,7 @@ export async function generateMetadata(
     }
 }
 
-const Page = ({ params }: { params: { slug: string } }) => {
+export default function Page({ params }: Props) {
     return (
         <div>
             <Article params={params} />
@@ -37,4 +37,3 @@ const Page = ({ params }: { params: { slug: string } }) => {
     )
 }
 
-export default Page
