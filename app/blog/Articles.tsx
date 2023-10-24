@@ -67,8 +67,6 @@ const Articles = () => {
         }
     };
 
-    console.log(articles);
-
     return (
         <div className="p-12">
             <div className="font-bold pb-20 text-[32px] text-center">
