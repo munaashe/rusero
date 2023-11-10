@@ -55,7 +55,7 @@ const Article = ({ params }: Props) => {
                 <div className='italic pt-2'>
                     {formattedDate}
                 </div>
-                <div dangerouslySetInnerHTML={{ __html: content }} className='whitespace-normal' />
+                <div dangerouslySetInnerHTML={{ __html: content }} className='whitespace-nowrap' />
             </div >
         </div >
     )
