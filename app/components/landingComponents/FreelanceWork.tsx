@@ -23,7 +23,7 @@ const FreelanceWork = () => {
                     />
                     <h1 className="text-gray-800 font-semibold my-3 text-xl">Ernoca - New and Pre-Owned Cars and Spares Digital Market Place</h1>
                     <p className="text-gray-500 mb-3">Design and dev of the Ernoca app, for selling new and preowned vehicles and accessories. Used Next.js on the UI, with Redux Toolkit Query and Tailwind. Firebase for Auth and Database.</p>
-                    <Link href='https://ernoca.vercel.app' target='_blank' className="underline">Visit Site</Link>
+                    <Link href='https://ernoca.com' target='_blank' className="underline">Visit Site</Link>
                 </div>
                 <div className="lg:w-7/12 flex flex-col justify-between mt-12 space-y-5 lg:space-y-0 lg:mt-0">
                     <div className="flex space-x-5">
