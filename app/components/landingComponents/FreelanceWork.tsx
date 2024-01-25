@@ -39,7 +39,7 @@ const FreelanceWork = () => {
                         <div className="w-8/12">
                             <h1 className="text-gray-800 text-sm sm:text-lg font-semibold">Procad Construction (PVT) (LTD). Modern Website in React & Tailwind</h1>
                             <p className="text-gray-500 my-2 sm:my-4 text-xs sm:text-md">Designed and developed the website for Procad Construction</p>
-                            <Link href='https://procad.co.zw' target='_blank' className="underline">Visit Site</Link>
+                            <Link href='https://procad.vercel.app' target='_blank' className="underline">Visit Site</Link>
                         </div>
                     </div>
                     <div className="flex space-x-5">
@@ -53,9 +53,9 @@ const FreelanceWork = () => {
                             </div>
                         </div>
                         <div className="w-8/12">
-                            <h1 className="text-gray-800 text-sm sm:text-lg font-semibold">Internet Solutions - Online shop for tech devices</h1>
+                            <h1 className="text-gray-800 text-sm sm:text-lg font-semibold">Dwellstone - Online shop for tech devices</h1>
                             <p className="text-gray-500 my-2 sm:my-4 text-xs sm:text-md">Designed and developed the frontend, backend and cloud services</p>
-                            <Link href='https://internetsolutions.co.zw' target='_blank' className="underline">Visit Site</Link>
+                            <Link href='https://dwellstone.co.za' target='_blank' className="underline">Visit Site</Link>
                         </div>
                     </div>
                     <div className="flex space-x-5">
